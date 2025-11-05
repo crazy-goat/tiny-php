@@ -30,6 +30,7 @@ docker build runtimes/php-server --tag crazygoat/tinyphp
 if [ ! -f "$WEBMAN_BIN" ]; then
     "$SPC_FILE" craft runtimes/webman/craft.yml
     echo "Coping php binary to php-server directory"
+    mkdir -p runtimes/webman/build
     cp buildroot/bin/micro.sfx "$WEBMAN_BIN"
 fi
 
