@@ -1,0 +1,5 @@
+php-version: 8.4
+extensions: "posix"
+sapi: cli
+download-options:
+  prefer-pre-built: true

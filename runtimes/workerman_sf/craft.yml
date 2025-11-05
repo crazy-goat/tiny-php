@@ -1,0 +1,5 @@
+php-version: 8.4
+extensions: "dom,filter,ctype,iconv,simplexml,tokenizer,pcntl,phar,posix,session,zlib,sockets"
+sapi: cli
+download-options:
+  prefer-pre-built: true

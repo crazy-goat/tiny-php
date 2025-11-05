@@ -1,0 +1,13 @@
+/buildroot/
+/downloads/
+/log/
+/pkgroot/
+/source/
+/runtimes/workerman_sf/bin/php
+/runtimes/webman/build/
+/runtimes/php-server/php
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/poc.iml
+/.idea/vcs.xml
