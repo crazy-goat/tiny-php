@@ -25,7 +25,25 @@ This project uses [static-php-cli](https://github.com/crazywhalecc/static-php-cl
 
 ## Quick Start
 
-Build all runtimes and Docker images:
+### Pull Pre-built Images
+
+The easiest way to try these images is to pull them directly from Docker Hub:
+
+```bash
+docker pull crazygoat/tinyphp:php-server
+docker pull crazygoat/tinyphp:webman
+docker pull crazygoat/tinyphp:symfony
+```
+
+Then run any of them:
+
+```bash
+docker run -p 8080:8080 crazygoat/tinyphp:php-server
+```
+
+### Build Locally
+
+To build all runtimes and Docker images from source:
 
 ```bash
 ./build.sh
